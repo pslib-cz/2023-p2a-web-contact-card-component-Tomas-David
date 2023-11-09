@@ -1,7 +1,7 @@
 :root{
     background-image: url(../img/bg.webp);
     --img-size: 10em;
-    --bg-width: 15em;
+    --bg-width: 17em;
     font-size: 110%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -12,7 +12,7 @@
     width: var(--img-size);
     height: var(--img-size);
     overflow: hidden;
-    margin-left: 2em;
+    margin-left: 3em;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -38,18 +38,21 @@
 
 .card__img--heading{
     display: inline-block;
-    border-bottom: solid black 1px;
-    padding-right: 3.5em;
     margin-top: 0.5em;
     font-size: 18px;
+    padding-right: 0.4em;
+}
+
+.card__img--heading--header{
+    border-bottom: solid black 1px;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
 }
 
 .card__img--des{
-    margin-top: .2em;
+    margin-top: 1em;
     padding-left: 1.5em;
 }
-
-
 
 .card__img--des--brown{
     color:brown
